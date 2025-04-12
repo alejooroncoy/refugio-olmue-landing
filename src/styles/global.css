@@ -1,1 +1,71 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #292524;
+}
+
+
+@layer base {
+  :root {
+    --background: 36 100% 98%;
+    --foreground: 20 14.3% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 38 92% 50%;
+    --primary-foreground: 26 83.3% 14.1%;
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 38 92% 50%;
+    --radius: 0.5rem;
+  }
+}
+
+.animation-header {
+  animation-timeline: scroll(y);
+  animation-name: scroll;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animation-header-links {
+  animation-timeline: scroll(y);
+  animation-name: scroll-header-links;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scroll {
+  0% {
+    background-color: trasnparent;
+    color: theme(--color-gray-200);
+  }
+  10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+    background-color: #fff;
+    color: theme(--color-gray-800);
+  }
+}
+
+@keyframes scroll-header-links {
+  0% {
+    color: #ffffff; /* text-white */
+  }
+  10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%  {
+    color: #292524; /* text-stone-800 */
+  }
+}
