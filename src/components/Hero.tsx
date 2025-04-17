@@ -8,7 +8,7 @@ const Hero = () => {
       className="relative min-h-dvh flex flex-col justify-center pt-16 bg-cover bg-center"
       style={{
         backgroundImage:
-          'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))',
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
         backgroundAttachment: "fixed",
       }}
     >
@@ -17,10 +17,11 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Tu Escape Perfecto en Olmué
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
-            Descubre la tranquilidad y belleza de nuestra cabaña en medio de
-            la naturaleza
+          <p className="text-xl md:text-2xl">
+            Descubre la tranquilidad y belleza de nuestro refugio en medio de la
+            naturaleza...
           </p>
+          <span className="text-xl md:text-2xl mb-8 block">...y con piscina temperada!!</span>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button
               variant="secondary"

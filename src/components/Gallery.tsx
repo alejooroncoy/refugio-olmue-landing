@@ -15,32 +15,32 @@ const Gallery = () => {
 
   const images: GalleryImage[] = [
     {
-      src: "/piscina.webp",
+      src: "/gallery/piscina.webp",
       alt: "Piscina en Mi Refugio Olmué",
       title: "Piscina privada",
     },
     {
-      src: "/servicios-higienicos.webp",
+      src: "/gallery/servicios-higienicos.webp",
       alt: "Baño dentro Mi Refugio Olmué",
       title: "Baño privado",
     },
     {
-      src: "/cocina.webp",
+      src: "/gallery/cocina.webp",
       alt: "Cocina equipada en Mi Refugio Olmué",
       title: "Cocina equipada",
     },
     {
-      src: "/habitacion.webp",
+      src: "/gallery/habitacion.webp",
       alt: "Habitaciones de Mi Refugio Olmué",
       title: "Habitaciones",
     },
     {
-      src: "/sitios-externos.webp",
+      src: "/gallery/sitios-externos.webp",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
     {
-      src: "/sitios-externos-2.webp",
+      src: "/gallery/sitios-externos-2.webp",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
