@@ -40,12 +40,6 @@ const Gallery = () => {
       title: "Sitios Externos",
     },
     {
-      src: "/gallery/otraImagen5.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
-    },
-
-    {
       src: "/gallery/otraImagen7.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
@@ -95,8 +89,8 @@ const Gallery = () => {
 
     {
       src: "/gallery/otraImagen10.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
+      alt: "Piscina privada de Mi Refugio Olmué",
+      title: "Piscina privada",
     },
 
   ];
@@ -119,11 +113,11 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap items-center justify-center gap-6">
           {images.map((image, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-lg shadow-md cursor-pointer group"
+              className="relative 2xl:w-[calc(25%_-_theme(spacing.6))] md:w-[calc(33%_-_theme(spacing.6))] sm:w-[calc(50%_-_theme(spacing.6))] w-[calc(100%_-_theme(spacing.6))] overflow-hidden rounded-lg shadow-md cursor-pointer group"
               onClick={() => openModal(image)}
             >
               <img
