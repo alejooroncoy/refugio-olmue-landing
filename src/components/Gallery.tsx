@@ -40,61 +40,61 @@ const Gallery = () => {
       title: "Sitios Externos",
     },
     {
-      src: "/public/gallery/otraImagen5.jpg",
+      src: "/gallery/otraImagen5.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen7.jpg",
+      src: "/gallery/otraImagen7.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen8.jpg",
+      src: "/gallery/otraImagen8.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen4.jpg",
+      src: "/gallery/otraImagen4.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen2.jpg",
+      src: "/gallery/otraImagen2.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen1.jpg",
+      src: "/gallery/otraImagen1.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen6.jpg",
+      src: "/gallery/otraImagen6.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen6.jpg",
+      src: "/gallery/otraImagen6.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/sitios-externos-2.webp",
+      src: "/gallery/sitios-externos-2.webp",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/public/gallery/otraImagen10.jpg",
+      src: "/gallery/otraImagen10.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
