@@ -72,7 +72,7 @@ const GalleryVideos = () => {
                   className="w-full h-64 object-cover"
                   muted
                   playsInline
-                  onMouseOver={(e) => e.currentTarget.play()}
+                  onMouseOver={(e: { currentTarget: { play: () => any; }; }) => e.currentTarget.play()}
                   onMouseOut={(e) => {
                     e.currentTarget.pause();
                     e.currentTarget.currentTime = 0;

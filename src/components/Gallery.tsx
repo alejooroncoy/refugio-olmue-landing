@@ -15,57 +15,105 @@ const Gallery = () => {
 
   const images: GalleryImage[] = [
     {
-      src: "/gallery/otraImagen7.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
+      src: "/gallery/images-1.jpg",
+      alt: "Piscina y exteriores de Mi Refugio Olmué",
+      title: "Piscina y exteriores",
     },
 
     {
-      src: "/gallery/otraImagen8.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
-    },
-
-    {
-      src: "/gallery/otraImagen4.jpg",
+      src: "/gallery/images-2.jpg",
       alt: "Cocina de Mi Refugio Olmué",
       title: "Cocina",
     },
 
     {
-      src: "/gallery/otraImagen2.jpg",
+      src: "/gallery/images-3.jpg",
+      alt: "Sitios externos de Mi Refugio Olmué",
+      title: "Sitios externos",
+    },
+
+    {
+      src: "/gallery/images-4.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/gallery/otraImagen1.jpg",
+      src: "/gallery/images-5.jpg",
+      alt: "Piscina de Mi Refugio Olmué",
+      title: "Piscina",
+    },
+
+    {
+      src: "/gallery/images-6.jpg",
+      alt: "Habitaciones de Mi Refugio Olmué",
+      title: "Habitaciones",
+    },
+
+    {
+      src: "/gallery/images-7.jpg",
+      alt: "Llaves de Mi Refugio Olmué",
+      title: "Llaves",
+    },
+
+    {
+      src: "/gallery/images-8.jpg",
+      alt: "Ubicación de Mi Refugio Olmué",
+      title: "Ubicación",
+    },
+
+    {
+      src: "/gallery/images-9.jpg",
+      alt: "Sitios externos de Mi Refugio Olmué",
+      title: "Sitios externos",
+    },
+
+    {
+      src: "/gallery/images-10.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/gallery/otraImagen6.jpg",
+      src: "/gallery/images-11.jpg",
+      alt: "Sitios de piscina de Mi Refugio Olmué",
+      title: "Sitios de piscina",
+    },
+
+    {
+      src: "/gallery/images-12.jpg",
+      alt: "Baño de Mi Refugio Olmué",
+      title: "Baño",
+    },
+
+    {
+      src: "/gallery/images-13.jpg",
+      alt: "Piscina de Mi Refugio Olmué",
+      title: "Piscina",
+    },
+
+    {
+      src: "/gallery/images-14.jpg",
+      alt: "Sitios Externos de Mi Refugio Olmué",
+      title: "Sitios Externos",
+    },
+
+    {
+      src: "/gallery/images-15.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/gallery/otraImagen6.jpg",
+      src: "/gallery/images-16.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
     },
 
     {
-      src: "/gallery/sitios-externos-2.webp",
+      src: "/gallery/images-17.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
-    },
-
-    {
-      src: "/gallery/otraImagen10.jpg",
-      alt: "Piscina privada de Mi Refugio Olmué",
-      title: "Piscina privada",
     },
   ];
 
