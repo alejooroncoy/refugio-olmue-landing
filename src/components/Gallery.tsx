@@ -15,31 +15,6 @@ const Gallery = () => {
 
   const images: GalleryImage[] = [
     {
-      src: "/gallery/piscina.webp",
-      alt: "Piscina en Mi Refugio Olmué",
-      title: "Piscina privada",
-    },
-    {
-      src: "/gallery/servicios-higienicos.webp",
-      alt: "Baño dentro Mi Refugio Olmué",
-      title: "Baño privado",
-    },
-    {
-      src: "/gallery/cocina.webp",
-      alt: "Cocina equipada en Mi Refugio Olmué",
-      title: "Cocina equipada",
-    },
-    {
-      src: "/gallery/habitacion.webp",
-      alt: "Habitaciones de Mi Refugio Olmué",
-      title: "Habitaciones",
-    },
-    {
-      src: "/gallery/sitios-externos.webp",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
-    },
-    {
       src: "/gallery/otraImagen7.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
       title: "Sitios Externos",
@@ -53,8 +28,8 @@ const Gallery = () => {
 
     {
       src: "/gallery/otraImagen4.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
+      alt: "Cocina de Mi Refugio Olmué",
+      title: "Cocina",
     },
 
     {
@@ -92,7 +67,6 @@ const Gallery = () => {
       alt: "Piscina privada de Mi Refugio Olmué",
       title: "Piscina privada",
     },
-
   ];
 
   const openModal = (image: GalleryImage) => {
@@ -109,7 +83,7 @@ const Gallery = () => {
           </h2>
           <div className="w-20 h-1 bg-amber-600 mx-auto mb-6"></div>
           <p className="text-lg text-stone-600 max-w-3xl mx-auto">
-            Conoce nuestra cabaña y su entorno a través de imágenes
+            Conoce nuestro refugio y su entorno a través de imágenes
           </p>
         </div>
 
