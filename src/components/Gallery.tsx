@@ -33,12 +33,6 @@ const Gallery = () => {
     },
 
     {
-      src: "/gallery/images-4.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
-    },
-
-    {
       src: "/gallery/images-5.jpg",
       alt: "Piscina de Mi Refugio Olmué",
       title: "Piscina",
@@ -48,12 +42,6 @@ const Gallery = () => {
       src: "/gallery/images-6.jpg",
       alt: "Habitaciones de Mi Refugio Olmué",
       title: "Habitaciones",
-    },
-
-    {
-      src: "/gallery/images-7.jpg",
-      alt: "Llaves de Mi Refugio Olmué",
-      title: "Llaves",
     },
 
     {
