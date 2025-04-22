@@ -15,9 +15,9 @@ const Gallery = () => {
 
   const images: GalleryImage[] = [
     {
-      src: "/gallery/images-1.jpg",
+      src: "/gallery/images-6.jpg",
       alt: "Piscina y exteriores de Mi Refugio Olmué",
-      title: "Piscina y exteriores",
+      title: "Habitaciones",
     },
 
     {
@@ -27,21 +27,21 @@ const Gallery = () => {
     },
 
     {
-      src: "/gallery/images-3.jpg",
+      src: "/gallery/images-12.jpg",
       alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios externos",
+      title: "Baño",
     },
 
     {
-      src: "/gallery/images-5.jpg",
+      src: "/gallery/imagen-habitaciones.jpg",
       alt: "Piscina de Mi Refugio Olmué",
-      title: "Piscina",
+      title: "Habitación",
     },
 
     {
-      src: "/gallery/images-6.jpg",
+      src: "/gallery/otra-interior.jpg",
       alt: "Habitaciones de Mi Refugio Olmué",
-      title: "Habitaciones",
+      title: "Cocina",
     },
 
     {
@@ -68,11 +68,8 @@ const Gallery = () => {
       title: "Sitios de piscina",
     },
 
-    {
-      src: "/gallery/images-12.jpg",
-      alt: "Baño de Mi Refugio Olmué",
-      title: "Baño",
-    },
+   
+    
 
     {
       src: "/gallery/images-13.jpg",
@@ -98,11 +95,7 @@ const Gallery = () => {
       title: "Sitios Externos",
     },
 
-    {
-      src: "/gallery/images-17.jpg",
-      alt: "Sitios externos de Mi Refugio Olmué",
-      title: "Sitios Externos",
-    },
+ 
   ];
 
   const openModal = (image: GalleryImage) => {
