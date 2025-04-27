@@ -1,11 +1,26 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "jsx": "react-jsx",
+    "jsx": "react-jsx", // Configuración adecuada para React con JSX
     "jsxImportSource": "react",
-    "baseUrl": ".",
+    "baseUrl": ".", // Base para rutas relativas
     "paths": {
-      "@/*": ["src/*"]
-    }
-  }
+      "@/*": ["src/*"] // Atajos de rutas
+    },
+    "typeRoots": [
+      "./node_modules/@types", // Asegura que los tipos sean detectados
+      "./types" // Adición para posibles tipos personalizados
+    ],
+    "types": ["react", "react-dom"], // Tipos requeridos por React y React DOM
+    "strict": true, // Modo estricto para TypeScript
+    "forceConsistentCasingInFileNames": true, // Evita problemas por mayúsculas/minúsculas en nombres de archivos
+    "noImplicitAny": true, // Previene el uso implícito de `any`
+    "skipLibCheck": true, // Omite chequeo en bibliotecas para evitar conflictos innecesarios
+    "noUnusedParameters": true, // Detecta parámetros no utilizados
+    "noUnusedLocals": true, // Detecta variables locales no utilizadas
+    "esModuleInterop": true, // Mejora compatibilidad con módulos ES
+    "allowSyntheticDefaultImports": true // Permite importar como si fueran exportaciones predeterminadas
+  },
+  "include": ["src/**/*"], // Incluye todo el código fuente
+  "exclude": ["node_modules", "dist"] // Excluye dependencias y archivos generados
 }
